@@ -1,0 +1,10 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./dist/lighthouse-ci/browser"
+    },
+    "assert": {
+      "preset": "lighthouse:no-pwa"
+    }
+  }
+}
